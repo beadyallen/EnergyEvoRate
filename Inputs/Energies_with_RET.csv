@@ -1,16 +1,18 @@
-Metabolism,yield,dgcat,Name
-ANAMOX,0.104934,-362.8,ANAMOX
-Acet_Methanogen,0.0671,-31,Acetoclastic Methanogen
-AerobicResp,13.4217,-2841.199689,Aerobic Heterotroph
-Ammonia_Oxidizer,0.074906,-282.763282,Ammonia oxidizer
-CH3_Methanogen,0.1272,-78.63332,Methylotrophic Methanogen
-FeIII_reducer,0.7242,-809.399534,Iron III reducer
-Ferm,0.9864,-823.833282,Fermenting Heterotroph
-H2_Methanogen,0.0319,-33.86668,Hydrogen oxidizing methanogen
-H2_Oxidizer,0.2232,-237.2,Hydrogen oxidizer
-Methanotroph,1.2591,-813.333282,Methanotroph
-NOB,0.020743,-79.1,Nitrite oxidizer
-SOB,0.6971,-796.633282,Sulphur oxidizer
-SRB,0.1033,-47.7,Sulphate reducer
-SRB_H2,0.0358,-38.04168,Sulphate reducer (H2)
-SRB_S0,0.0262,-27.833282,Sulphate reducer(S0)
+Metabolism,yield,dgcat,Name,C-Source type
+ANAMOX,0.104934,-362.8,ANAMOX,S
+Acet_Methanogen,0.0671,-31,Acetoclastic Methanogen,C
+AerobicResp,13.4217,-2841.199689,Aerobic Heterotroph,C
+Ammonia_Oxidizer,0.074906,-282.763282,Ammonia oxidizer,S
+CH3_Methanogen,0.1272,-78.63332,Methylotrophic Methanogen,S
+FeIII_reducer,0.7242,-809.399534,Fe III reducer,S
+Fe_oxidizer,0.002831,-4.366718, Fe II oxidizer,S
+Ferm,0.9864,-823.833282,Fermenting Heterotroph,C
+H2_Methanogen,0.0319,-33.86668,Hydrogen oxidizing methanogen,S
+H2_Oxidizer,0.2232,-237.2,Hydrogen oxidizer,S
+Methanotroph,1.2591,-813.333282,Methanotroph,S
+Methylotroph,0.8936,-688.633282,Methylotroph,S
+NOB,0.020743,-79.1,Nitrite oxidizer,S
+SOB,0.6971,-796.633282,Sulphur oxidizer,S
+SRB_H2,0.0358,-38.04168,Sulphate reducer (H2),S
+SRB_CO2,0.2473,-99.658476,Sulphate reducer (Complete oxidation),C
+SRB_Acetate,0.0343,-13.808320,Sulphate reducer (to Acetate),C
